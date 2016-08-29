@@ -1,3 +1,7 @@
+//I know this totally isn't dry code!!! I need to go back and reconfigure everything into smaller functions and reusable pieces.
+
+
+
 
 var input = document.getElementsByClassName("inputBox")[0];
 var myList = document.createElement("ul");
