@@ -80,11 +80,12 @@ function editItem(){
 
     newInput.setAttribute("style", "display: inline-block") //makes the input box visible
     var input2 = document.getElementById("override") //creates a new variable for the new input box that was created
-    console.log(input2.value)
+    console.log(input2)
      input2.addEventListener("keyup", storeValue)
         function storeValue(e){
              if (e.keyCode == 13) {
-            this.parentNode.innerHTML =  input2.value + xTab + editTab
+            input2.parentElement.innerHTML =  input2.value + xTab + editTab
+            console.log(input2.parentElement)
         }
         }
 

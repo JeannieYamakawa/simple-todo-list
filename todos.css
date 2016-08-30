@@ -50,3 +50,12 @@ ul li {
   box-shadow:0 2px 0 0 #662929;
   border-radius:4px;
 }
+
+.xButton {
+    float: right;
+}
+
+
+.editButton{
+    float: right;
+}
